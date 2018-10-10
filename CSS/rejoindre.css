@@ -1,0 +1,174 @@
+@media (min-width:1200px)
+{
+	#maitre
+	{
+		background-color:white;
+		width: 45%;
+		padding:1%;
+		border-style:dotted;
+		border-radius:25px;
+		display:flex;
+		flex-direction:row;
+		transition-property: margin-left;
+	    	transition-duration: 1s;
+		transition-delay:0.5s;
+	}
+	#commerce
+	{
+		background-color:silver;
+		width: 45%;
+		margin-left:53%;
+		padding:1%;
+		border-style:dotted;
+		border-radius:25px;
+		display:flex;
+		flex-direction:row;
+		transition-property: margin-left;
+	    	transition-duration: 1s;
+		transition-delay:0.5s;
+	}
+
+	#fabricant
+	{
+		background-color:white;
+		width: 45%;
+		padding:1%;
+		border-style:dotted;
+		border-radius:25px;
+		display:flex;
+		flex-direction:row;
+		transition-property: margin-left;
+	    	transition-duration: 1s;
+		transition-delay:0.5s;
+	}
+	#maitre:hover
+	{
+		border-style:solid;
+		border-color:red;
+		border-width:5px;
+		margin-left:25%;
+	}
+	
+
+	#commerce:hover
+	{
+		border-style:solid;
+		border-color:red;
+		border-width:5px;
+		margin-left:25%;
+	}
+	#fabricant:hover
+	{
+		border-style:solid;
+		border-color:red;
+		border-width:5px;
+		margin-left:25%;
+	}
+
+
+	#maitreimage
+	{
+		border-radius:25%;
+	}
+
+	#corps
+	{
+		margin-top:20%;
+	}
+
+	h3
+	{
+		color:red;
+		font-size:40px;
+		text-align:center;
+	}
+}
+@media (max-width:1200px)
+{
+	#maitre
+	{		
+		background-color:white;
+		width: 100%;
+		padding:1%;
+		border-style:dotted;
+		border-radius:25px;
+		display:flex;
+		flex-direction:row;
+	}
+	#commerce
+	{
+		background-color:silver;
+		width: 98%;
+		padding:1%;
+		border-style:dotted;
+		border-radius:25px;
+		display:flex;
+		flex-direction:row;
+	}
+		#fabricant
+	{
+		background-color:white;
+		width: 98%;
+		padding:1%;
+		border-style:dotted;
+		border-radius:25px;
+		display:flex;
+		flex-direction:row;
+
+	}
+	#maitreimage
+	{
+		border-radius:5%;
+		width:50%;
+		height:50%;
+	}
+}
+@media (max-width:720px)
+{
+	#maitre
+	{		
+		background-color:white;
+		width: 100%;
+		padding:1%;
+		border-style:dotted;
+		border-radius:25px;
+		display:flex;
+		flex-direction:row;
+	}
+	#commerce
+	{
+		background-color:silver;
+		width: 98%;
+		padding:1%;
+		border-style:dotted;
+		border-radius:25px;
+		display:flex;
+		flex-direction:row;
+	}
+		#fabricant
+	{
+		background-color:white;
+		width: 98%;
+		padding:1%;
+		border-style:dotted;
+		border-radius:25px;
+		display:flex;
+		flex-direction:row;
+
+	}
+	#maitreimage
+	{
+		width:25%;
+		height:25%;
+	}
+	#fabricantimage
+	{
+		width:25%;
+		height:25%;
+	}
+	#commerceimage
+	{
+		width:25%;
+		height:25%;
+	}
+}

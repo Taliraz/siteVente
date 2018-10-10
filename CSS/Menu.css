@@ -1,0 +1,325 @@
+@media (min-width:1521px) {
+    #menu_titre_mobile {
+        display: none;
+    }
+	body{
+		background-image: url(../HTML/images/Fond-gen.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top;
+	}
+
+
+	#titre{
+		color: white;
+		text-shadow: -3px -3px 3px black;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		height: 40px;
+		font-size: 40px;
+
+	}
+	#Menu_logo {
+		height: 100%;
+		width: 100%;  
+		margin-left: 10%;
+	}
+	.Menu_colonne {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#Cote_dominant {
+		width:900%;
+	}
+	nav {
+		background-image: url(wallpaper.jpg);
+		background-color: black;
+		position: fixed;
+		left: 0; top: 0;
+		width: 102%;
+		display: flex;
+		float: left;
+		flex-direction: row;
+		background-image: url("../HTML/images/fondMenu8.png");
+		z-index: 1;
+		background-size: 100%;
+		opacity: 0.4;
+		left: -95%;
+		border-bottom-right-radius: 30px;
+		
+		transition: all 1.4s;
+
+	}
+	nav:hover {
+
+		opacity: 1.0;
+		left: 0%;
+	}
+	#menu, #menu ul     
+	{
+        padding : 0; 
+        margin : 0; 
+        list-style : none; 
+        line-height : 50px;     
+	}
+	#menu 
+	{
+        font-weight : bold; 
+        font-family : Arial; 
+        font-size : 18px; 
+	}
+    #sous_menu {
+        display: flex;
+        flex-direction: row;
+    }
+	#menu li ul 
+	{ 
+        position: absolute;
+        z-index: 50;
+        width: 144px; 
+        left: -999em; 
+	}
+	#menu li:hover ul
+	{
+        left: auto; 
+	}
+
+	#menu ul li a{
+		display: block;
+		font-size: 20px;
+		color: white;
+		width: 223px;
+		text-decoration: none;
+		text-align: center;
+		text-shadow: -2px -3px 3px black;
+        transition: all 0.3s;
+	}
+
+	#sous-cat a{	
+		border-left: 5px black solid;	
+		border-bottom: 2px black solid;
+		background-color: black;
+	}
+
+
+	#menu ul li a:hover{
+		text-shadow: 2px 2px 2px black;
+		background: darkred;
+		color: white;
+		width: 270px;
+		font-size: 25px;
+	}
+	#Burger {
+		display: none;
+	}
+}
+@media (min-width: 361px) and (max-width: 1520px){
+    #menu_titre_mobile {
+        display: none;
+    }
+	body{
+		background-image: url(../HTML/images/Fond-gen.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top;
+	}
+	#titre{
+		color: white;
+		text-shadow: -3px -3px 3px black;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		font-size: 200%;
+
+	}
+	#Menu_logo {
+		height: 100%;
+		width: 100%;  
+		margin-left: 10%;
+	}
+	.Menu_colonne {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#Cote_dominant {
+		width:1200%;
+	}
+	#Cote_inf {
+		width: 120%;
+	}
+	nav {
+		background-image: url('../HTML/images/Papyrus.png');
+		background-color: black;
+		position: fixed;
+		left: 0; top: 0; 
+		width: 102%;
+		display: flex;
+		float: left;
+		flex-direction: row;
+		z-index: 1;
+		background-size: 100%;
+		opacity: 0.4;
+		left: -95%;
+		border-bottom-right-radius: 30px;
+        transition: all 1.4s;
+	}
+	nav:hover {
+
+		opacity: 1.0;
+		left: 0%;
+	}
+    #sous_menu {
+        display: flex;
+        flex-direction: row;
+    }
+	#menu ul     
+	{
+			padding : 0; 
+			margin : 0; 
+			list-style : none; 
+			line-height : 30px;     
+			font-size: 220%;
+			width: 100%;
+			float: left;
+			margin-bottom: 0px;
+	}
+	#menu 
+	{
+			font-weight : bold; 
+			font-family : Arial; 
+			width: 100%; 
+	}
+	#menu li ul 
+	{ 
+			position: absolute;
+			z-index: 50;
+			width: 100%; 
+			left: -999em; 
+			font-size: 100%;
+			
+	}
+	#menu li:hover ul{
+			left:-10px; 
+	}
+	
+	#menu ul li {
+		width: 15%;
+		margin-left: 1.5%;
+	}
+	#menu ul li a{
+		display: block;
+		font-size: 20px;
+		color: white;
+		width: 100%;
+		text-decoration: none;
+		text-align: center;
+		font-size: 50%;
+		text-shadow: -2px -3px 3px black;
+		
+		transition: all 0.3s;
+	}
+
+	#sous-cat a{	
+		border-bottom: 1px black solid;
+		background-image: url('../HTML/images/Papyrus.png');
+	}
+	#sous-cat {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#menu ul li a:hover{
+		text-shadow: 2px 2px 2px black;
+		background: darkred;
+		color: white;
+	}
+	
+	#Burger {
+		display: none;
+	}
+}
+
+@media (max-width: 360px) {
+
+	body{
+		background-image: url(../HTML/images/fond-body.jpg);
+	}
+	nav {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+        z-index: 100;
+	}
+	#Menu_logo {
+		display: none;
+	}
+	#menu {
+		text-decoration: none;
+		top: 0px;
+		background-image: url('../HTML/images/Papyrus.jpg');
+        background-size: 100% 100%;
+	}
+	#menu:hover #sous_menu{
+		display: flex;
+		flex-direction: column;		
+	}
+	#menu:hover {
+		display: flex;
+	}
+    #menu:hover #menu_titre_mobile{
+        display: none;
+    }
+	#titre {
+		display: none;
+	}
+	#menu ul {
+		list-style-type:none;
+	}
+	#sous_menu {
+		top: 0px;
+		display: none;
+	}
+	#sous_menu li{
+		font-size: 20px;
+		font-weight : bold; 
+		font-family : Arial; 
+	}
+	#menu li a{
+		text-decoration: none;
+        transition: all 1.4s;
+	}
+	.not_equip:hover {
+		border: 2px solid darkred; 
+        background-color: darkred;
+        color: white;
+	}
+    #nom_equip {
+        display:none;  
+    }
+    .Sous_equip:hover {
+        border: 2px solid darkred; 
+        background-color: darkred;
+        color: white;
+    }
+    .Sous_equip {
+        color: darkred;
+        display: flex;
+        margin-left: -40px;
+    }
+    .not_equip {
+        color: darkred;
+        display: flex;
+    }
+    #menu_titre_mobile {
+        font-family: Arial;
+        font-weight: bold;
+        margin: 40%;
+        width: 150px;
+        color: darkred;
+        font-size: 20px;
+    }
+}

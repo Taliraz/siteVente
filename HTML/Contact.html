@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title> Nous contacter</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/Menu.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/contact.css">
+	</head>
+
+    <body>
+<nav>
+            <div class="Menu_colonne" id="Cote_dominant">
+					<a href="Accueil.html" id="titre">L'armurerie du Panthéon</a>
+					<div id="menu"><span id="menu_titre_mobile">Menu</span>
+						<ul id="sous_menu">
+                          <li><a id ="equipement"><span id="nom_equip">Equipement</span></a>
+								<ul id="sous-cat">
+									<li><a href="equipement_arme.html" class="Sous_equip">Armes</a></li>
+									<li><a href="equipement_armures.html" class="Sous_equip">Equipement</a></li>
+								</ul>
+							</li>
+							<li><a href="presse.html" class="not_equip">Presse</a>	
+							</li>
+							<li><a href="equipe.html" class="not_equip">L'équipe</a>
+							</li>
+							<li><a href="Contact.html" class="not_equip">Contact</a> 
+							</li>
+							<li><a href="FAQ.html" class="not_equip">FAQ</a>
+							</li>
+							<li><a href="rejoindre.html" class="not_equip">Nous rejoindre</a>
+							</li>
+						</ul>  
+					</div>
+            </div>                   
+            <div class="Menu_colonne" id="Cote_inf"><a href ="#"><img src="images/logo2.png" alt="ndjinspjfs" id="Menu_logo"></a></div>
+		</nav>
+             <div id="CON_block">
+				 <br>
+                <main>
+                        <article>
+				<h2 id="CON_titre"> Nous contacter </h2>
+		                <form action="sendToMySecondYearInIut.php" method="get">
+					<fieldset>
+						<legend class="CON_titre"> Informations personelles </legend><br>
+						<label for="surname">Nom*</label>
+						<input id="surname" name="nom" type="text" placeholder="Votre Nom" required><br><br>
+						<label for="firstname">Prénom*</label>
+						<input id="firstname" name="prenom" type="text" placeholder="Votre Prénom" required><br><br>
+						<label for="mail"> Votre Email* </label>
+						<input id="mail" type="email" name="mail" Placeholder ="Exemple@Domaine" required><br><br>
+						<input type="radio" name="sexe" value="Masculin"> Masculin
+						<input type="radio" name="sexe" value="Feminin"> Féminin<br><br>
+						<label for="pays"> Pays d'origine* </label>
+						<select id="pays" name="pays">
+							<option value="usa"> U.S.A </option>
+							<option value="fr" selected> France </option>
+							<option value="ch"> Chine </option>
+							<option value="en"> Angleterre </option>
+							<option value="es"> Espagne </option>
+							<option value="othercountry"> Autre (à préciser) </option>
+						</select> 
+						<input id="othercountry" name="othercountry" type="text" placeholder="Autre pays"> <br><br>
+						<label for="poste"> Code postal* </label> 
+						<input id="poste" name="poste" type="number" min="01000" max="99999" placeholder="*****" required><br><br>
+					</fieldset> 
+					<br>
+					<fieldset>
+						<legend class="CON_titre"> Contact </legend><br>
+						<label for="recontact">Date à laquelle vous souhaitez être recontacté</label><br>
+						<input id="recontact" type="date" name="recontact"> <br><br>
+						<label for="reputation"> Vous avez entendu parler de nous via </label><br>
+						<select id="reputation" name="reputation">
+							<option value="Entourage"> Entourage </option>
+							<option value="internet" selected> Internet </option>
+							<option value="Media"> Média (Télévision,journaux,etc...)</option>
+							<option value="otherreputation"> Autre </option>
+						</select><br><br>
+						<label for="raison"> Pourquoi nous contactez vous? </label><br>
+						<select id="raison" name="pays">
+							<option value="probleme" selected> Problème </option>
+							<option value="remerciement"> Remerciement </option>
+							<option value="emploi"> Emploi </option>
+							<option value="question"> Question (pensez à regarder la FAQ) </option>
+							<option value="otherraison"> Autre </option>
+						</select><br><br>
+						<label for="message"> Votre Message </label><br><br>
+						<textarea name="message" id="message" placeholder="Ecrivez votre Message içi"></textarea><br><br>
+					</fieldset>
+					<br>
+					<input id="CON_sub" type="submit" value="Envoyer"><br>
+					
+					</form>
+                        </article>
+                </main> 
+                <br>
+                <br>
+                <br>
+                <br>      
+			</div>
+        </body>
+</html>

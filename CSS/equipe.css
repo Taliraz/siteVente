@@ -1,0 +1,147 @@
+body {
+	margin:auto;
+	background-color:#838892;
+}
+
+section {
+	display:flex;
+}
+
+.fond{
+    z-index: 10; 
+    background-image: url('../HTML/images/Papyrus.png');
+    background-size: 90%;
+    opacity: 0.9;
+    background-repeat: repeat-y;
+    margin-left: 10%;
+}
+
+section>article {
+	width:32%;
+	background-color:#696969;
+    margin:auto;
+    margin-bottom:12px;
+    margin-left:190px;
+    border-style:groove;
+    border-radius: 10px;
+    border-color:black;
+ 
+}
+
+section>aside {
+	width:32%;
+	background-color:#696969;
+    margin:auto;
+    margin-right:350px;
+    margin-bottom:12px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color:black;
+}
+
+p {
+	margin: 30px 0px;
+	text-indent:12px;
+    text-align: justify;
+}
+.center{
+    margin-left:160px;
+    margin-right:340px;
+    text-align:center;
+    font-weight: bold;
+}
+
+img {
+    display:block;
+    margin:auto;
+}
+
+table{
+    margin:auto;
+    text-align:center;
+    border: 2px outset black;
+}
+td {
+    border: 1px outset black;
+}
+th {
+    border: 1px outset black;
+}
+
+.h {
+	background-color:#500010;
+    text-align: center;
+}
+
+h2 {
+    margin-left:175px;
+    margin-right:340px;
+	padding : 10px 0px;
+    border:1px solid #CCCCCC;
+	color:white;
+}
+
+h3 {
+	border:1px solid #CCCCCC;
+	color:white;
+}
+
+.image1{
+    width:66%;
+}
+
+.image2{
+    width:63%;
+}
+
+.image3{
+    width:76%;
+}
+
+.image4{
+    width:55%;
+}
+
+@media(max-width:1500px){
+    section{
+    display:flex;
+    flex-direction:column;
+    }
+section>article {
+	width:63%;
+	background-color:#696969;
+    margin:auto;
+    margin-bottom:12px;
+    margin-left:13%;
+    margin-right:2%;
+    border-style: groove;
+    border-radius: 10px;
+    border-color:black;
+ 
+    }
+
+section>aside {
+	width:63%;
+	background-color:#696969;
+    margin:auto;
+    margin-left:13%;
+    margin-right:2%;
+    margin-bottom:12px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color:black;
+}
+    table{
+    margin:auto;
+    text-align:center;
+    border: 2px outset black;
+    }
+    
+    td {
+    border: 1px outset black;
+    }
+
+    th {
+    border: 1px outset black;
+    }
+}

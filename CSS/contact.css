@@ -1,0 +1,133 @@
+@media (min-width: 401px){
+    #CON_block {
+        z-index: 10; 
+        background-image: url('../HTML/images/Papyrus.png');
+        background-size: 90%;
+        opacity: 0.9;
+        background-repeat: repeat-y;
+        margin-left: 10%;
+    }
+
+    fieldset {
+        margin-left: 2%;
+        margin-right: 2%;
+        width:65%;
+        background-image: url('../HTML/images/Straw.jpg');
+        border: 4px #7E3300 ridge;
+    }
+    #CON_sub {
+        transition: 0.2s;
+    }
+    #CON_sub{
+        background-image: url('../HTML/images/Straw.jpg');
+        border: 4px #7E3300 ridge;
+        width: 150px;
+        height: 40px;
+        color: #7E3300;
+        font-weight: bold;
+    }
+    #CON_sub:hover {
+        border: 2px solid darkred;
+        width:  200px;
+        background-image: url('../HTML/images/Straw.jpg');
+        font-size:20px;
+        cursor: pointer;
+        color: #7E3300;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: arial;
+    }
+    main {
+        margin-left: 10%;
+    }
+    .CON_titre{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: arial;
+        border: 4px #7E3300 ridge;
+        background-image: url('../HTML/images/Straw.jpg');
+    }
+    #CON_titre {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: arial;
+        border: 4px #7E3300 ridge;
+        background-image: url('../HTML/images/Straw.jpg');
+        text-align: center;
+        padding: 10px;
+        width: 200px;
+        margin-left: 5%;
+    }
+     #message {
+        height: 150px;
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+        #CON_block {
+        z-index: 10; 
+        background-image: url('../HTML/images/Papyrus.png');
+        opacity: 0.9;
+        background-repeat: repeat-y;
+        margin-left: 0%;
+    }
+
+    fieldset {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 80%;
+        background-image: url('../HTML/images/Straw.jpg');
+        border: 4px #7E3300 ridge;
+    }
+    #CON_sub {
+        transition: 0.2s;
+    }
+    #CON_sub{
+        background-image: url('../HTML/images/Straw.jpg');
+        border: 4px #7E3300 ridge;
+        width: 150px;
+        height: 40px;
+        color: #7E3300;
+        font-weight: bold;
+    }
+    #CON_sub:hover {
+        border: 2px solid darkred;
+        width:  200px;
+        background-image: url('../HTML/images/Straw.jpg');
+        font-size:20px;
+        cursor: pointer;
+        color: #7E3300;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: arial;
+    }
+    main {
+        margin-left: 10%;
+    }
+    .CON_titre{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: arial;
+        border: 4px #7E3300 ridge;
+        background-image: url('../HTML/images/Straw.jpg');
+    }
+    #CON_titre {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: arial;
+        border: 4px #7E3300 ridge;
+        background-image: url('../HTML/images/Straw.jpg');
+        text-align: center;
+        padding: 10px;
+        width: 200px;
+        margin-left: 5%;
+    }
+    #message {
+        height: 300px;
+        width: 90%;
+    }
+}

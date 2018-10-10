@@ -1,0 +1,131 @@
+#monde
+{
+	display:flex;
+	flex-direction:row;
+
+}
+#reussite
+{
+	display:flex;
+	flex-direction:column;
+}
+#minute
+{
+	display:flex;
+	flex-direction:row;
+}
+#mondeimage
+{
+	width:100px;
+	height:100px;
+	border:solid 1px white;
+	border-radius:100%;
+	transition: width 1s, height 1s;
+
+}
+#reussiteimage
+{
+	width:100px;
+	height:100px;
+	border:solid 1px white;
+	border-radius:100%;
+	transition: width 1s, height 1s;
+
+}
+#minuteimage
+{
+	width:100px;
+	height:100px;
+	border:solid 1px white;
+	border-radius:100%;
+	transition: width 1s, height 1s;
+
+}
+#mondetexte
+{
+	display:none;
+	background-color:white;
+	text-align:center;
+	border:solid 5px #0000CD;
+	border-radius:5%;
+	margin-left:5%;
+	margin-right:5%;
+} 
+#reussitetexte
+{
+	display:none;
+	background-color:white;
+	text-align:center;
+	border:solid 5px red;
+	border-radius:5%;
+	margin-left:5%;
+	margin-right:5%;
+} 
+#minutetexte
+{
+	display:none;
+	background-color:white;
+	text-align:center;
+	border:solid 5px #0000CD;
+	border-radius:5%;
+	margin-left:5%;
+	margin-right:5%;
+} 
+
+#monde:hover>#mondetexte
+{
+	display:block;
+}
+#monde:hover>#mondeimage
+{
+	width:150px;
+	height:150px;
+}
+
+#monde:hover
+{
+	flex-direction:column;
+}
+#reussite:hover>#reussitetexte
+{
+	display:block;
+}
+#reussite:hover
+{
+	flex-direction:column;
+}
+#reussite:hover>#reussiteimage
+{
+	width:150px;
+	height:150px;
+}
+#minute:hover>#minutetexte
+{
+	display:block;
+}
+
+#minute:hover
+{
+	flex-direction:column;
+}
+#minute:hover>#minuteimage
+{
+	width:150px;
+	height:150px;
+}
+.titre
+{
+	text-align:center;
+	font-size:40px;
+}
+p
+{
+	margin:1%;
+}
+
+
+#corps
+{
+	display:flex;
+	flex-direction:column;
+}

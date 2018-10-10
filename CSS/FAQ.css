@@ -1,0 +1,223 @@
+@media (min-width: 401px){
+    a {
+        color:black;
+        text-decoration: none;
+    }
+    .FAQ_liste {
+        list-style-type:none;
+    }
+    #FAQ_titre li a {
+
+        height: 40px;
+        width: 40%;
+        background-color: grey;
+        font-size: 20px;
+        text-decoration: none;
+        text-shadow: -2px -2px 2px white;
+        transition: all 0.3s;
+    }
+    .FAQ_titre {
+        text-shadow: -2px -2px 5px white;
+        font-size: 20px;
+    }
+    .FAQ_titre ul li a:hover{
+        text-decoration: none;
+        width: 50%;
+        background-image:url('../HTML/images/Straw.jpg');
+        border: 4px #7E3300 ridge;
+        padding: 5px;
+    }
+    .FAQ_cat_titre {
+        border: 4px #7E3300 ridge;
+        background-image: url('../HTML/images/Straw.jpg');	
+        width: 30%
+    }
+    .FAQ_cat {
+        margin-left: 10%;
+        width: 100%;
+    }
+    #FAQ_titre_ques {
+        margin-left: 15%;
+        background-image: url('../HTML/images/Straw.jpg');	
+        text-decoration:underline;
+        border: 4px #7E3300 ridge;
+        width: 30%;
+        padding: 10px;
+    }
+    #FAQ_cat ul li a{
+        text-decoration: none;
+        transition:  all 0.3s;
+    }
+
+    #FAQ_block {
+        z-index: 10; 
+        background-image: url('../HTML/images/Papyrus.png');
+        background-size: 90%;
+        opacity: 0.9;
+        background-repeat: repeat-y;
+        margin-left: 10%;
+
+    }
+    .FAQ_rep {
+        background-image: url('../HTML/images/Straw.jpg');	
+        border: 4px #7E3300 ridge;
+        width: 500px;
+        padding: 10px;
+    }
+    .FAQ_support:hover{
+        border: none;
+    }
+
+    .FAQ_portail a.ancre{
+        display: none;
+    }
+    .FAQ_rep{
+      display: none;
+    }
+    .FAQ_portail a#wrap1:target ~ #FAQ_rep1{
+        display: block;  
+    }
+    .FAQ_portail a#wrap2:target ~ #FAQ_rep2{
+        display: block;   
+    }
+    .FAQ_portail a#wrap3:target ~ #FAQ_rep3{
+        display: block;   
+    }
+    .FAQ_portail a#wrap4:target ~ #FAQ_rep4{
+        display: block;   
+    }
+    .FAQ_portail a#wrap5:target ~ #FAQ_rep5{
+        display: block;   
+    }
+    .FAQ_portail a#wrap6:target ~ #FAQ_rep6{
+        display: block;   
+    }
+    .FAQ_portail a#wrap7:target ~ #FAQ_rep7{
+        display: block;   
+    }
+    .FAQ_portail a#wrap8:target ~ #FAQ_rep8{
+        display: block;   
+    }
+    .FAQ_portail a#wrap9:target ~ #FAQ_rep9{
+        display: block;   
+    }
+    .FAQ_portail a#wrap10:target ~ #FAQ_rep10{
+        display: block;  
+    }
+    .FAQ_portail a#wrap11:target ~ #FAQ_rep11{
+        display: block;
+    }.FAQ_portail a#wrap12:target ~ #FAQ_rep12{
+        display: block;
+    }
+}
+
+@media (max-width: 400px){
+        a {
+        color:black;
+        text-decoration: none;
+    }
+    .FAQ_liste {
+        list-style-type:none;
+    }
+    .FAQ_titre li a {
+
+        height: 10px;
+        background-color:grey;
+        font-size: 15px;
+        text-decoration: none;
+        text-shadow: -2px -2px 2px white;
+        transition:  all 0.3s;
+    }
+    .FAQ_titre {
+        text-shadow: -2px -2px 5px white;
+        font-size: 20px;
+    }
+    #FAQ_titre ul li a:hover{
+        text-decoration: none;
+        width: 50%;
+        background-image:url('../HTML/images/Straw.jpg');
+        padding: 5px;
+    }
+    .FAQ_cat_titre {
+        border: 4px #7E3300 ridge;
+        background-image: url('../HTML/images/Straw.jpg');	
+        width: 80%
+    }
+    .FAQ_cat {
+        width: 100%;
+    }
+    #FAQ_titre_ques {
+        margin-left: 15%;
+        background-image: url('../HTML/images/Straw.jpg');	
+        text-decoration:underline;
+        font-weight: bold;
+        border: 4px #7E3300 ridge;
+        width: 50%;
+        padding: 10px;
+    }
+    #FAQ_cat ul li a{
+        text-decoration: none;
+        transition:  all 0.3s;
+    }
+
+    #FAQ_block {
+        z-index: 10; 
+        background-image: url('../HTML/images/Papyrus.png');
+        background-size: 100%;
+        opacity: 0.9;
+        background-repeat: repeat-y;
+
+    }
+    .FAQ_rep {
+        background-image: url('../HTML/images/Straw.jpg');	
+        font-size: 15px;
+        border: 4px #7E3300 ridge;
+        width: 70%;
+        padding: 10px;
+    }
+    .FAQ_support:hover{
+        border: none;
+    }
+
+    .FAQ_portail a.ancre{
+        display: none;
+    }
+    .FAQ_rep{
+      display: none;
+    }
+    .FAQ_portail a#wrap1:target ~ #FAQ_rep1{
+        display: block;  
+    }
+    .FAQ_portail a#wrap2:target ~ #FAQ_rep2{
+        display: block;   
+    }
+    .FAQ_portail a#wrap3:target ~ #FAQ_rep3{
+        display: block;   
+    }
+    .FAQ_portail a#wrap4:target ~ #FAQ_rep4{
+        display: block;   
+    }
+    .FAQ_portail a#wrap5:target ~ #FAQ_rep5{
+        display: block;   
+    }
+    .FAQ_portail a#wrap6:target ~ #FAQ_rep6{
+        display: block;   
+    }
+    .FAQ_portail a#wrap7:target ~ #FAQ_rep7{
+        display: block;   
+    }
+    .FAQ_portail a#wrap8:target ~ #FAQ_rep8{
+        display: block;   
+    }
+    .FAQ_portail a#wrap9:target ~ #FAQ_rep9{
+        display: block;   
+    }
+    .FAQ_portail a#wrap10:target ~ #FAQ_rep10{
+        display: block;  
+    }
+    .FAQ_portail a#wrap11:target ~ #FAQ_rep11{
+        display: block;
+    }.FAQ_portail a#wrap12:target ~ #FAQ_rep12{
+        display: block;
+    }
+}
